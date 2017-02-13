@@ -1,0 +1,273 @@
+[
+	{
+		"name": "East College",
+		"Construction": 1853,
+		"Demolition": 1871,
+		"Description": "First college building that was constructed in Grinnell - was destroyed by fire two years before Central College was built.",
+	},
+	{
+		 "name": "West College",
+		 "Construction": 1967,
+		 "Demolition": 1882,
+		 "Description": "In the 1870s Grinnell College was composed of West and Central College, but were destroyed in the great cyclone of 1882.",
+	},
+	{
+		 "name": "Central College",
+		 "Construction": 1872,
+		 "Demolition": 1882,
+		 "Description": "No indivdual photo of Central College, but based on the previous photo, the two colleges were in close proximity.",
+	},
+	{
+		 "name": "Alumni, Chicago, and Blair Hall",
+		 "Construction": 1883,
+		 "Demolition":1958,
+		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling).",
+	},
+	{
+		 "name": "Goodnow",
+		 "Construction": 1885,
+		 "Demolition": "Present",
+		 "Description": "Orginally constructed to serve as the school's library and as an astronomical observatory."
+	},
+	{
+		 "name": "Mears Cottage",
+		 "Construction": 1888,
+		 "Demolition": "Present",
+		 "Description": "Originally constructed as a lodging space for women (28 female students specifically)."
+	},
+	{
+		 "name": "Rand Gymnasium for Women",
+		 "Construction": 1897,
+		 "Demolition": 1939,
+		 "Description": "Destroyed by fire, the picture is from 1910 looking SW w women's and men's gymnasiums in the background."
+	},
+	{
+		 "name": "Gymnasium for Men",
+		 "Construction": 1899,
+		 "Demolition": 1971,
+		 "Description": "Eventually serves as women's gymnasium after Darby is constructed."
+	},
+	{
+		 "name": "Carnegie Library",
+		 "Construction": 1904,
+		 "Demolition": "Present",
+		 "Description": "Previous year, the college received an offer from A. Carnegie to fund a new library ($50,000 grant) -> lib moves from Goodnow to here."
+	},
+	{
+		 "name": "Herrick Chapel",
+		 "Construction": 1906,
+		 "Demolition": "Present",
+		 "Description": "Originally used as the associations building, while Alumni Hall is remodeled to house School of Music."
+	},
+	{
+		 "name": "Steiner Hall (Christian Associations Building)",
+		 "Construction": 1906,
+		 "Demolition": "Present",
+		 "Description": "Looking NE."
+	},
+	{
+		 "name": "Women's Quadrangle (South Campus)",
+		 "Construction": 1915,
+		 "Demolition": "Present",
+		 "Description": "The women's quadrangle consists of six residence halls and a dining room - all buildings are connected together by a loggia.",
+
+	},
+	{
+		 "name": "Alumni Recreation Hall",
+		 "Construction": 1916,
+		 "Demolition": "Present",
+		 "Description": " ", 
+	},
+	{
+		 "name": "Tennis Court",
+		 "Construction": 1916,
+		 "Demolition": "Present",
+		 "Description": " " 
+	},
+	{
+		 "name": "Men's quadrangle (North Campus)",
+		 "Construction": 1917,
+		 "Demolition": "Present",
+		 "Description": "North campus for men is constructed along with a dining hall in the basement of Langan Hall."
+	},
+	{
+		 "name": "Natatorium - Frame Swimming Pool Building",
+		 "Construction": 1926,
+		 "Demolition": 1972,
+		 "Description": "Located south of 8th Ave"
+	},
+	{
+		 "name": "Caney House",
+		 "Construction": 1931,
+		 "Demolition": "Present",
+		 "Description": "Originally was a facility for faculty social function but presently is Carriage House Bed and Breakfast."
+	},
+	{
+		 "name": "Cowles Hall",
+		 "Construction": 1941,
+		 "Demolition": "Present",
+		 "Description": "Constructed as a residence for menas well as a dining room for around 300."
+	},
+	{
+		 "name": "Darby Gymnasium for Men",
+		 "Construction": 1941,
+		 "Demolition": "Present",
+		 "Description": " "
+	},
+	{
+		 "name": "College radio station",
+		 "Construction": 1941,
+		 "Demolition": "Present (but not used in the same way)",
+		 "Description": "Located in annex between ARH and Carnegie Library "
+	},
+	{
+		 "name": "Cyclone Cellar",
+		 "Construction": 1945,
+		 "Demolition": "Present (but not used in the same way)",
+		 "Description": "Student Recreation Center located in Langan basement."
+	},
+	{
+		 "name": "Loose Hall for Women",
+		 "Construction": 1948,
+		 "Demolition": "Present",
+		 "Description": " "
+	},
+	{
+		 "name": "Younker Hall for Men",
+		 "Construction": 1950,
+		 "Demolition": "Present",
+		 "Description": "In 1956 Younker Health Center is constructed."
+	},
+	{
+		 "name": "Hall of Science",
+		 "Construction": 1952,
+		 "Demolition": "Unknown",
+		 "Description": " "
+	},
+	{
+		 "name": "Burling Library",
+		 "Construction": 1958,
+		 "Demolition": "Present",
+		 "Description": "Adminstrative offices located in burling basement."
+	},
+	{
+		 "name": "Platform Tennis facility",
+		 "Construction": 1960,
+		 "Demolition": "Present",
+		 "Description": "Constructed East of Darby."
+	},
+	{
+		 "name": "Fine Arts center and Roberts Theatre",
+		 "Construction": 1960,
+		 "Demolition": "Present",
+		 "Description": " "
+	},
+	{
+		 "name": "Presidents home at 1600 Park",
+		 "Construction": 1961,
+		 "Demolition": "Present",
+		 "Description": "Former President's home is name Grinnell House and ussed as a College Inn and offical ffaculty and administrative entertainment center."
+	},
+	{
+		 "name": "The College Forum",
+		 "Construction": 1964,
+		 "Demolition": "Present",
+		 "Description": "New student union is constructed."
+	},
+	{
+		 "name": "Physical plant (FM) building",
+		 "Construction": 1967,
+		 "Demolition": "Present",
+		 "Description": "Holds offices, shops, and warehouses."
+	},
+	{
+		 "name": "CERA is aquired",
+		 "Construction": 1968,
+		 "Demolition": "Present",
+		 "Description": "Addition of 365 acres of research area that's seven mi. SW of Campus."
+	},
+	{
+		 "name": "Black Cultural Center",
+		 "Construction": 1968,
+		 "Demolition": "Present",
+		 "Description": "Residence on the corner of 10th and Park is renovated to house the BCC."
+	},
+	{
+		 "name": "Pre-school Laboratory Building",
+		 "Construction": 1970,
+		 "Demolition": "Present",
+		 "Description": " "
+	},
+	{
+		 "name": "Physical Education Complex",
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "10 co-op houses for interest group housing",
+		 "Construction": 1975,
+		 "Demolition": "Present",
+		 "Description": "Language houses."
+	},
+	{
+		 "name": "Macy house",
+		 "Construction": 1977,
+		 "Demolition": "Present",
+		 "Description": "1103 Park Street is renovated to house offices of treasure and development/alumni relations."
+	},
+	{
+		 "name": "1131 Park st",
+		 "Construction": 1980,
+		 "Demolition": "Present",
+		 "Description": "Rosenfield Program is moved here."
+	},
+	{
+		 "name": "Windsor House",
+		 "Construction": 1981,
+		 "Demolition": "Present",
+		 "Description": "Located at 1026 Park st and is used for auxillary gues housing and for meeting roooms."
+	},
+	{
+		 "name": "Reading Lab",
+		 "Construction": 1982,
+		 "Demolition": "Present",
+		 "Description": "1233 Park St converted to reading lab and faculty offices."
+	},
+	{
+		 "name": "Faculty House",
+		 "Construction": 1983,
+		 "Demolition": "Present",
+		 "Description": "1303 Park St is convertated and renovated to serve as faculty house."
+	},
+	{
+		 "name": "Grant Gale Observatory",
+		 "Construction": 1984,
+		 "Demolition": "Present",
+		 "Description": " "
+	},
+	{
+		 "name": "Harris Center",
+		 "Construction": 1990,
+		 "Demolition": "Present",
+		 "Description": "Construction is completed and building serves as a center of student recreational activities."
+	},
+	{
+		 "name": "Bob's underground café",
+		 "Construction": 1991,
+		 "Demolition": "Present",
+		 "Description": "Created in space which previously housed the on campus pub that was closed down due to lack of business over the change in drinking age (include yrs)."
+	},
+	{
+		 "name": "Alumni House",
+		 "Construction": 1994,
+		 "Demolition": "Present",
+		 "Description": "1102 Broad St. acquired and renovated."
+	},
+	{
+		 "name": "Old Glove Factory",
+		 "Construction": 1999,
+		 "Demolition": "Present",
+		 "Description": "Aquired and renovated."
+	},
+]
