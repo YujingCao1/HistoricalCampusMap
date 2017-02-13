@@ -4,12 +4,26 @@
 
 #map{
 	margin-top: 3%;
-	margin-left: 20%;
+	margin-left: 18%;
 
 }
 
 #slider{
-	margin-top: 5%;
-	margin-left: 3%;
+	margin-top: 3%;
+	margin-left: 13%;
 	height:20px;
+}
+
+.d3-slider-axis{
+	height: 80px;
+}
+
+.d3-slider-handle{
+	height: 1.8em;
+	width: 1em;
+}
+
+#playbutton{
+		margin-top: 3%;
+		margin-left: 5%;
 }
