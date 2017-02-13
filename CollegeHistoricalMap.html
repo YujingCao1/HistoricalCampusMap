@@ -10,20 +10,14 @@
 	<link rel="stylesheet" href="slider/d3.slider.css">
 	<link rel="stylesheet" href="campusmap.css"> 
 </head>
-<body>
-	<div id="map"></div>
+<body onload="loadMap(1914)">
 	<div id="slider"></div>
 	<div id="playbutton"></div>
 	<script type="text/javascript">
     
     var height = window.innerHeight;
     var width = window.innerWidth;
-
-    var maps = d3.select("#map").append("img")
-    		.attr("src", "base_layers/1914.jpg")
-    		.attr("width", width*0.63)
-    		.attr("height", height*0.7);
-
+    var maps;
 	// Set the Year Range
 	var yearRange = [1914,1934,1949,1954,1959,1960,1971,1980,1996,1997,2000,2001,2002,2005,2009];
 	var max=d3.max(yearRange);
@@ -42,9 +36,7 @@
 			.min(min)
 			.max(max)
 			.step(1)
-			.on("slide", function(evt, value){
-				console.log(value)
-			});
+			.on("slide", changeBaseMap);
 
 	d3.select("#slider")
 		    .style("width", width*0.8-120+"px")
@@ -55,6 +47,26 @@
 		    		.attr("dy","0.15em")
 		    		.attr("transform","rotate(-65)")
 		    		.style("font-size","0.7em");
+
+	// Load a Map
+	function loadMap(year){
+		 maps = d3.select("body")
+		 		.append("img")
+		 		.attr("id","map")
+    				.attr("src", "base_layers/"+year+".jpg")
+    				.attr("width", width*0.63)
+    				.attr("height", height*0.7);
+	}
+
+	// Function to Change Base Map
+	function changeBaseMap(){
+		var tick=slider.value();
+
+	    if (yearRange.includes(tick)){
+	    	d3.selectAll("#map").remove();
+	    	loadMap(tick);
+	    }
+	}
 
 	// Build a Playbutton
 	// d3.select("#playbutton")
