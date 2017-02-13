@@ -11,8 +11,9 @@
 	<link rel="stylesheet" href="campusmap.css"> 
 </head>
 <body onload="loadMap(1914)">
-	<div id="slider"></div>
-	<div id="playbutton"></div>
+		<div id="map"></div>
+		<div id="slider"></div>
+<!-- 	<div id="playbutton"></div> -->
 	<script type="text/javascript">
     
     var height = window.innerHeight;
@@ -39,7 +40,7 @@
 			.on("slide", changeBaseMap);
 
 	d3.select("#slider")
-		    .style("width", width*0.8-120+"px")
+		    .style("width", width*0.8 - 120 + "px")
 		    .call(slider)
 		    .selectAll("text")
 		    		.style("text-anchor","end")
@@ -50,10 +51,9 @@
 
 	// Load a Map
 	function loadMap(year){
-		 maps = d3.select("body")
+		 maps = d3.select("#map")
 		 		.append("img")
-		 		.attr("id","map")
-    				.attr("src", "base_layers/"+year+".jpg")
+    				.attr("src", "base_layers/" + year + ".jpg")
     				.attr("width", width*0.63)
     				.attr("height", height*0.7);
 	}
@@ -63,10 +63,12 @@
 		var tick=slider.value();
 
 	    if (yearRange.includes(tick)){
-	    	d3.selectAll("#map").remove();
+	    	d3.selectAll("img").remove();
 	    	loadMap(tick);
 	    }
 	}
+
+
 
 	// Build a Playbutton
 	// d3.select("#playbutton")
