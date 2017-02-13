@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<title>Historical Campus of Grinnell College</title>
+	<script src='http://d3js.org/d3.v3.min.js'></script>
+	<script src="slider/d3.slider.js"></script>
+
+	<link rel="stylesheet" href="slider/d3.slider.css">
+	<link rel="stylesheet" href="campusmap.css"> 
+</head>
+<body>
+	<div id="map"></div>
+	<div id="slider"></div>
+	<script type="text/javascript">
+    
+    var height = window.innerHeight;
+    var width = window.innerWidth;
+
+    var maps = d3.select("#map").append("img")
+    		.attr("src", "base_layers/1914.jpg")
+    		.attr("width", width*0.5)
+    		.attr("height", height*0.6);
+
+	// Set the Year Range
+	var yearRange = [1914,1934,1949,1954,1959,1960,1971,1980,1996,1997,2000,2001,2002,2005,2009];
+	var scale = d3.scale.linear()
+					.domain(yearRange);
+					
+	var slider = d3.slider().scale(scale).axis(d3.svg.axis().orient("bottom"))
+						.min(1914).max(2009).step(1);
+
+	d3.select("#slider")
+		    .style("width", width-120+"px")
+		    .call(slider);
+	</script>
+
+</body>
+</html>
