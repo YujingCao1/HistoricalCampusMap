@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="campusmap.css"> 
 </head>
 <body onload="loadMap(1914)">
+		<div id="maptitle"></div>
 		<div id="map"></div>
 		<div id="slider"></div>
 <!-- 	<div id="playbutton"></div> -->
@@ -19,6 +20,7 @@
     var height = window.innerHeight;
     var width = window.innerWidth;
     var maps;
+    var title;
 	// Set the Year Range
 	var yearRange = [1914,1934,1949,1954,1959,1960,1971,1980,1996,1997,2000,2001,2002,2005,2009];
 	var max=d3.max(yearRange);
@@ -49,8 +51,12 @@
 		    		.attr("transform","rotate(-65)")
 		    		.style("font-size","0.7em");
 
-	// Load a Map
+	// Load a Map and Title
 	function loadMap(year){
+		 title = d3.select("#maptitle")
+		 		.append("h2")
+		 document.getElementsByTagName("h2")["0"].innerHTML = "Ginnell College Historical Campus Map " + year;
+
 		 maps = d3.select("#map")
 		 		.append("img")
     				.attr("src", "base_layers/" + year + ".jpg")

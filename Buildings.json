@@ -18,9 +18,21 @@
 		 "Description": "No indivdual photo of Central College, but based on the previous photo, the two colleges were in close proximity.",
 	},
 	{
-		 "name": "Alumni, Chicago, and Blair Hall",
+		 "name": "Alumni Hall",
 		 "Construction": 1883,
 		 "Demolition":1958,
+		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling).",
+	},
+	{
+		 "name": "Chicago Hall",
+		 "Construction": 1883,
+		 "Demolition":1959,
+		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling).",
+	},
+	{
+		 "name": "Blair Hall",
+		 "Construction": 1883,
+		 "Demolition":1960,
 		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling).",
 	},
 	{
