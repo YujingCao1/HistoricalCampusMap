@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Alumni Hall",
+		"lat": 41.7403,
+		"lng": -92.7025
+	},
+	{
+		"name": "Blair Hall",
+		"lat": 41.7434,
+		"lng": -92.7190
+	},
+	{
+		"name": "Chicago Hall",
+		"lat": 41.7409,
+		"lng": -92.7386
+	},
+	{
+		"name": "Goodnow Hall",
+		"lat": 41.7437,
+		"lng": -92.7523
+	},
+	{
+		"name": "Herrick Chapel",
+		"lat": 41.7519,
+		"lng": -92.7495
+	},
+	{
+	 	"name": "Carnegie Library",
+	 	"lat": 41.7569,
+	 	"lng": -92.7494
+	},
+	{
+		"name": "Gymnasium for Men",
+		"lat": 41.7613,
+		"lng": -92.7246
+	},
+	{
+		"name": "Rand Gymnasium for Women",
+		"lat": 41.7503,
+		"lng": -92.6989
+	}
+]

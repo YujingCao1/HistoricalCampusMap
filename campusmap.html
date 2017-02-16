@@ -20,6 +20,7 @@
 		var title;
 		var height = window.innerHeight;
         var width = window.innerWidth;
+        var marker;
 		// Set the Year Range
 		var yearRange = [1914,1934,1949,1954,1959,1960,1971,1980,1996,1997,2000,2001,2002,2005,2009];
 		var max=d3.max(yearRange);
@@ -52,6 +53,9 @@
 		// Create the Google Map
 		function myMap(){
 			var year = slider.value();
+			var json = year+".json";
+
+			// Add Map Title
 			title = d3.select("#maptitle")
 			 		.append("h2")
 			document.getElementsByTagName("h2")["0"].innerHTML = "Ginnell College Historical Campus Map " + year;
@@ -64,9 +68,9 @@
 				// mapTypeId: google.maps.MapTypeId.TERRAIN
 			};
 			map = new google.maps.Map(mapCanvas, mapOptions);
-			var marker = new google.maps.Marker({
-				position:myCenter
-			});
+			// var marker = new google.maps.Marker({
+			// 	position:myCenter
+			// });
 			var imageBounds={
 				north: 41.773941,
 				south: 41.724216,
@@ -78,7 +82,22 @@
 				'base_layers/'+ year +'.jpg', imageBounds);
 
 			addOverlay();
+            
+            // Add Markers to Denote the Buildings
+            //markers = loca
+			// Retrieve Latitude and Longitude
+			google.maps.event.addListener(historicalOverlay, 'click', function (event) {
+               displayCoordinates(event.latLng);               
+            });
 		}
+
+        function displayCoordinates(pnt) {
+          var lat = pnt.lat();
+          lat = lat.toFixed(4);
+          var lng = pnt.lng();
+          lng = lng.toFixed(4);
+          console.log("lat: "+lat+ " lng: "+lng);
+        }
 
 		function addOverlay(){
 			historicalOverlay.setMap(map);
@@ -87,33 +106,12 @@
 		function removeOverlay(){
 			historicalOverlay.setMap(null);
 		}
-        
-        // Load a Map and Title
-		function loadMap(year){
-			 title = d3.select("#maptitle")
-			 		.append("h2")
-			 document.getElementsByTagName("h2")["0"].innerHTML = "Ginnell College Historical Campus Map " + year;
-
-			 maps = d3.select("#map")
-			 		.append("img")
-	    				.attr("src", "base_layers/" + year + ".jpg")
-	    				.attr("width", width*0.63)
-	    				.attr("height", height*0.7);
-	    	 d3.select("#map")
-	    	 	.append("svg")
-	    	 	.append("svg:image")
-	    	 	.attr("id","Carneige")
-	    	 	.attr('xlink:href',"img/admin.svg")
-	    	 	.attr("height", "30px")
-	    	 	.attr("width", "30px");
-		}
 
 		// Function to Change Base Map
 		function changeBaseMap(){
 			var tick=slider.value();
 
 		    if (yearRange.includes(tick)){
-		    	// d3.selectAll("img").remove();
 		    	myMap(tick);
 		    }
 		}

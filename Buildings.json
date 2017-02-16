@@ -3,37 +3,37 @@
 		"name": "East College",
 		"Construction": 1853,
 		"Demolition": 1871,
-		"Description": "First college building that was constructed in Grinnell - was destroyed by fire two years before Central College was built.",
+		"Description": "First college building that was constructed in Grinnell - was destroyed by fire two years before Central College was built."
 	},
 	{
 		 "name": "West College",
 		 "Construction": 1967,
 		 "Demolition": 1882,
-		 "Description": "In the 1870s Grinnell College was composed of West and Central College, but were destroyed in the great cyclone of 1882.",
+		 "Description": "In the 1870s Grinnell College was composed of West and Central College, but were destroyed in the great cyclone of 1882."
 	},
 	{
 		 "name": "Central College",
 		 "Construction": 1872,
 		 "Demolition": 1882,
-		 "Description": "No indivdual photo of Central College, but based on the previous photo, the two colleges were in close proximity.",
+		 "Description": "No indivdual photo of Central College, but based on the previous photo, the two colleges were in close proximity."
 	},
 	{
 		 "name": "Alumni Hall",
 		 "Construction": 1883,
 		 "Demolition":1958,
-		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling).",
+		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling)."
 	},
 	{
 		 "name": "Chicago Hall",
 		 "Construction": 1883,
 		 "Demolition":1959,
-		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling).",
+		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling)."
 	},
 	{
 		 "name": "Blair Hall",
 		 "Construction": 1883,
 		 "Demolition":1960,
-		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling).",
+		 "Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling)."
 	},
 	{
 		 "name": "Goodnow",
@@ -81,14 +81,14 @@
 		 "name": "Women's Quadrangle (South Campus)",
 		 "Construction": 1915,
 		 "Demolition": "Present",
-		 "Description": "The women's quadrangle consists of six residence halls and a dining room - all buildings are connected together by a loggia.",
+		 "Description": "The women's quadrangle consists of six residence halls and a dining room - all buildings are connected together by a loggia."
 
 	},
 	{
 		 "name": "Alumni Recreation Hall",
 		 "Construction": 1916,
 		 "Demolition": "Present",
-		 "Description": " ", 
+		 "Description": " "
 	},
 	{
 		 "name": "Tennis Court",
