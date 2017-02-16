@@ -1,42 +1,50 @@
 [
 	{
 		"name": "Alumni Hall",
-		"lat": 41.7403,
-		"lng": -92.7025
+		"lat": 41.7412,
+		"lng": -92.7025,
+		"icon": "img/acad.svg"
 	},
 	{
 		"name": "Blair Hall",
-		"lat": 41.7434,
-		"lng": -92.7190
+		"lat": 41.7448,
+		"lng": -92.7190,
+		"icon": "img/acad.svg"
 	},
 	{
 		"name": "Chicago Hall",
-		"lat": 41.7409,
-		"lng": -92.7386
+		"lat": 41.7419,
+		"lng": -92.7386,
+		"icon": "img/acad.svg"
 	},
 	{
 		"name": "Goodnow Hall",
-		"lat": 41.7437,
-		"lng": -92.7523
+		"lat": 41.7454,
+		"lng": -92.7523,
+		"icon": "img/acad.svg"
 	},
 	{
 		"name": "Herrick Chapel",
-		"lat": 41.7519,
-		"lng": -92.7495
+		"lat": 41.7536,
+		"lng": -92.7457,
+		"icon": "img/acad.svg"
 	},
 	{
 	 	"name": "Carnegie Library",
-	 	"lat": 41.7569,
-	 	"lng": -92.7494
+	 	"lat": 41.7583,
+	 	"lng": -92.7494,
+	 	"icon": "img/acad.svg"
 	},
 	{
 		"name": "Gymnasium for Men",
-		"lat": 41.7613,
-		"lng": -92.7246
+		"lat": 41.7631,
+		"lng": -92.7246,
+		"icon": "img/sport.svg"
 	},
 	{
 		"name": "Rand Gymnasium for Women",
-		"lat": 41.7503,
-		"lng": -92.6989
+		"lat": 41.7525,
+		"lng": -92.6989,
+		"icon": "img/sport.svg"
 	}
 ]
