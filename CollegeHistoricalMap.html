@@ -62,6 +62,13 @@
     				.attr("src", "base_layers/" + year + ".jpg")
     				.attr("width", width*0.63)
     				.attr("height", height*0.7);
+    	 d3.select("#map")
+    	 	.append("svg")
+    	 	.append("svg:image")
+    	 	.attr("id","Carneige")
+    	 	.attr('xlink:href',"img/admin.svg")
+    	 	.attr("height", "30px")
+    	 	.attr("width", "30px");
 	}
 
 	// Function to Change Base Map
@@ -74,6 +81,20 @@
 	    }
 	}
 
+	// Function to Show the Information of a Selected Building
+	var clicking = 0;
+	function showInfo(){
+		var toolitp = document.getElementById("Carneige");
+			toolitp.src = "buildings/1914/Carneige Library.jpg";
+
+		if (clicking == 0){
+			toolitp.style.display = "block";
+			clicking = 1;
+		}else{
+			toolitp.style.display = "none";
+			clicking = 0;
+		}
+	}
 
 
 	// Build a Playbutton
@@ -84,6 +105,5 @@
 	// 		.attr("src", "img/play.png")
 	// 		.attr("data-status", "paused");
 	</script>
-
 </body>
 </html>

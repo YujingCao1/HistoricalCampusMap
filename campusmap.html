@@ -11,38 +11,116 @@
 	<link rel="stylesheet" href="campusmap.css"> 
 </head>
 <body>
+	<div id="maptitle"></div>
 	<div id="map"></div>
-	<div id="HistroicalMap"></div>
+	<div id="slider"></div>
 	<script type="text/javascript">
-		
+		var historicalOverlay;
+		var map;
+		var title;
+		var height = window.innerHeight;
+        var width = window.innerWidth;
+		// Set the Year Range
+		var yearRange = [1914,1934,1949,1954,1959,1960,1971,1980,1996,1997,2000,2001,2002,2005,2009];
+		var max=d3.max(yearRange);
+		var min=d3.min(yearRange);
+
+		var scale = d3.scale.linear()
+					.domain([min,max]);
+					
+		var slider = d3.slider().scale(scale)
+				.axis(d3.svg.axis()
+					.orient("bottom")
+					.ticks(yearRange.length)
+					.tickValues(yearRange)
+					.tickFormat(d3.format("d")))
+				.min(min)
+				.max(max)
+				.step(1)
+				.on("slide", changeBaseMap);
+
+		d3.select("#slider")
+			    .style("width", width*0.8 - 120 + "px")
+			    .call(slider)
+			    .selectAll("text")
+			    		.style("text-anchor","end")
+			    		.attr("dx","-0.8em")
+			    		.attr("dy","0.15em")
+			    		.attr("transform","rotate(-65)")
+			    		.style("font-size","0.7em");
+
 		// Create the Google Map
 		function myMap(){
+			var year = slider.value();
+			title = d3.select("#maptitle")
+			 		.append("h2")
+			document.getElementsByTagName("h2")["0"].innerHTML = "Ginnell College Historical Campus Map " + year;
+
 			var myCenter = new google.maps.LatLng(41.749110, -92.720104);
 			var mapCanvas=document.getElementById('map');
 			var mapOptions = {
 				center: myCenter, 
-				zoom: 5,
-				mapTypeId: google.maps.MapTypeId.TERRAIN
+				zoom: 14,
+				// mapTypeId: google.maps.MapTypeId.TERRAIN
 			};
-			var map = new google.maps.Map(mapCanvas, mapOptions);
-			// var image = {
-   //  			url: "/base_layers/1914.jpg",
- 
-   //  			size: new google.maps.Size(50, 100),
-			// 	origin: new google.maps.Point(50, 50),
-			// 	anchor: new google.maps.Point(0, 32)
-  	// 		};
+			map = new google.maps.Map(mapCanvas, mapOptions);
 			var marker = new google.maps.Marker({
-				position:myCenter,
-				// icon: image
+				position:myCenter
 			});
-			marker.setMap(map);
+			var imageBounds={
+				north: 41.773941,
+				south: 41.724216,
+				east:  -92.670104,
+				west:  -92.770941
+			};
+
+			historicalOverlay = new google.maps.GroundOverlay(
+				'base_layers/'+ year +'.jpg', imageBounds);
+
+			addOverlay();
+		}
+
+		function addOverlay(){
+			historicalOverlay.setMap(map);
+		}
+
+		function removeOverlay(){
+			historicalOverlay.setMap(null);
+		}
+        
+        // Load a Map and Title
+		function loadMap(year){
+			 title = d3.select("#maptitle")
+			 		.append("h2")
+			 document.getElementsByTagName("h2")["0"].innerHTML = "Ginnell College Historical Campus Map " + year;
+
+			 maps = d3.select("#map")
+			 		.append("img")
+	    				.attr("src", "base_layers/" + year + ".jpg")
+	    				.attr("width", width*0.63)
+	    				.attr("height", height*0.7);
+	    	 d3.select("#map")
+	    	 	.append("svg")
+	    	 	.append("svg:image")
+	    	 	.attr("id","Carneige")
+	    	 	.attr('xlink:href',"img/admin.svg")
+	    	 	.attr("height", "30px")
+	    	 	.attr("width", "30px");
+		}
+
+		// Function to Change Base Map
+		function changeBaseMap(){
+			var tick=slider.value();
+
+		    if (yearRange.includes(tick)){
+		    	// d3.selectAll("img").remove();
+		    	myMap(tick);
+		    }
 		}
 
 		// Add historical map 
 
 	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwliwbM5L67cRMDQhOYNEeR3a5Sv1gIOk&callback=myMap"></script>
-
 </body>
 </html>
