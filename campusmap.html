@@ -53,7 +53,7 @@
 		// Create the Google Map
 		function myMap(){
 			var year = slider.value();
-			var json = year+".json";
+			var json = "position/" + year + ".json";
 
 			// Add Map Title
 			title = d3.select("#maptitle")
@@ -84,7 +84,18 @@
 			addOverlay();
             
             // Add Markers to Denote the Buildings
-            //markers = loca
+            d3.json(json, function(error, json){
+            	data = json;
+            	
+            	for (i = 0; i<json.length; i++){
+            		marker = new google.maps.Marker({
+            			position: new google.maps.LatLng(json[i].lat, json[i].lng),
+            			icon: json[i].icon,
+            			map: map
+            		});
+            	}
+            });
+
 			// Retrieve Latitude and Longitude
 			google.maps.event.addListener(historicalOverlay, 'click', function (event) {
                displayCoordinates(event.latLng);               
