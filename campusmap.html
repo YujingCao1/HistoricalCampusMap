@@ -52,11 +52,11 @@
 			    		.attr("transform","rotate(-65)")
 			    		.style("font-size","0.7em");
 
+
 		// Create the Google Map
 		function myMap(){
 			var year = slider.value();
-			var indices = largestSmall(year, yearRange, pictureYear);
-			var preYear = pictureYear[indices];
+			var preYear = d3.max(pictureYear.filter(isGreaterYear));
 
 
 			var json = "position/" + year + ".json";
@@ -169,14 +169,19 @@
 		}
 
 		// Function to Find the Largest Small Number
-		function largestSmall(d, arr1, arr2){
+		function largestSmall(year){
+			var d = slider.value();
 			var smallIndex = [];
-			arr2.forEach(function(o){
-				if (o<=d){
-					smallIndex.push(arr2.indexOf(o));
+			for (i = 0; i<arr2.length; i++){
+				if (arr2[i]<d){
+					smallIndex.push(arr2[i]);
 				}
-			});
-			return Math.max(smallIndex);
+			}
+		}
+
+		// Largest Small Year
+		function isGreaterYear(x){
+			return x<slider.value();
 		}
 		// Show Building Info
 
