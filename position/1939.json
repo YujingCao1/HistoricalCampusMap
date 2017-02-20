@@ -79,6 +79,17 @@
 		 "icon": "img/life.svg",
 		 "img": "buildings/1931/Mears.jpeg",
 		 "Description": "Originally constructed as a lodging space for women (28 female students specifically)."
+	},
+	{
+		"name": "Natatorium - Frame Swimming Pool Building",
+		 "lat":41.7628,
+		 "lng":-92.7154,
+		 "Construction": 1926,
+		 "Demolition": 1972,
+		 "icon": "img/sport.svg",
+		 "img": "buildings/1960/Buling 1960.tiff",
+		 "Description": "Former President's home is name Grinnell House and ussed as a College Inn and offical ffaculty and administrative entertainment center."
 	}
+
 
 ]

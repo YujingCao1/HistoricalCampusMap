@@ -1,0 +1,144 @@
+[
+	{
+		"name": "Blair Hall",
+		"lat": 41.7428,
+		"lng": -92.6813,
+		"icon": "img/acad.svg",
+	    "Construction": 1883,
+		"Demolition":1960,
+		"img": "buildings/1949/BlairHall.jpeg",
+		"Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling)."
+	},
+	{
+		"name": "Goodnow Hall",
+		"lat": 41.7312,
+		"lng": -92.6860,
+		"icon": "img/acad.svg",
+		"Construction": 1885,
+		"Demolition": "Present",
+		"img": "buildings/1940/Goodnow.jpeg",
+		"Description": "Orginally constructed to serve as the school's library and as an astronomical observatory."
+	},
+	{
+		"name": "Herrick Chapel",
+		"lat": 41.7320,
+		"lng": -92.6955,
+		"icon": "img/life.svg",
+		"Construction": 1906,
+		"Demolition": "Present",
+		"img": "buildings/1949/HerrickChapel.jpeg",
+		"Description": "Originally used as the associations building, while Alumni Hall is remodeled to house School of Music."
+	},
+	{
+	 	"name": "Carnegie Library",
+	 	"lat": 41.7307,
+	 	"lng": -92.7016,
+	 	"icon": "img/acad.svg",
+	 	"Construction": 1904,
+		"Demolition": "Present",
+		"img": "buildings/1945/CarnegieLibrary.jpeg",
+		"Description": "Previous year, the college received an offer from A. Carnegie to fund a new library ($50,000 grant) -> lib moves from Goodnow to here."
+	},
+	{
+		"name": "Gymnasium for Men",
+		"lat": 41.7412,
+		"lng": -92.7118,
+		"icon": "img/sport.svg",
+		"Construction": 1899,
+		"Demolition": 1971,
+		"img": "buildings/1914/Rand.jpeg",
+		"Description": "Eventually serves as women's gymnasium after Darby is constructed."
+	},
+	{
+		 "name": "Steiner Hall (Christian Associations Building)",
+		 "lat":41.7302,
+		 "lng":-92.6906,
+		 "Construction": 1906,
+		 "Demolition": "Present",
+		 "icon": "img/admin.svg",
+		 "img": "buildings/1926/SteinerHall.jpeg",
+		 "Description": "Looking NE."
+	},
+	{
+		 "name": "Alumni Recreation Hall",
+		 "lat":41.7312,
+		 "lng":-92.7145,
+		 "Construction": 1916,
+		 "Demolition": "Present",
+		 "icon": "img/admin.svg",
+		 "img": "buildings/1940/ARH.jpeg",
+		 "Description": "ARH is a three-story Tudor-style building with Gothic features which was part of a campus-wide modernization effort prompted by rising enrollment. Designed by H.D. Rawson of Proudfoot, Bird, and Rawson of Des Moines, ARH became the College's general classroom building."
+
+	},
+	{
+		 "name": "Mears Cottage",
+		 "lat": 41.7633,
+		 "lng": -92.6872,
+		 "Construction": 1888,
+		 "Demolition": "Present",
+		 "icon": "img/life.svg",
+		 "img": "buildings/1931/Mears.jpeg",
+		 "Description": "Originally constructed as a lodging space for women (28 female students specifically)."
+	},
+	{
+		 "name": "Darby Gymnasium for Men",
+		 "lat": 41.7524,
+		 "lng": -92.7263,
+		 "Construction": 1941,
+		 "Demolition": "Present",
+		 "icon": "img/sport.svg",
+		 "img": "buildings/1914/Rand.jpeg",
+		 "Description": " "
+	},
+	{
+		 "name": "Cowles Hall",
+		 "lat": 41.7394,
+		 "lng": -92.7589,
+		 "Construction": 1941,
+		 "Demolition": "Present",
+		 "icon": "img/life.svg",
+		 "img": "buildings/1914/Rand.jpeg",
+		 "Description": "Constructed as a residence for menas well as a dining room for around 300."
+	},
+	{
+		"name": "Loose Hall for Women",
+		 "lat": 41.7692,
+		 "lng": -92.7198,
+		 "Construction": 1948,
+		 "Demolition": "Present",
+		 "icon": "img/dorm.svg",
+		 "img": "buildings/1914/Rand.jpeg",
+		 "Description": ""
+	},
+	{
+		 "name": "Hall of Science",
+		 "lat": 41.7511,
+		 "lng": -92.7069,
+		 "Construction": 1952,
+		 "Demolition": "Present",
+		 "icon": "img/acad.svg",
+		 "img": "buildings/1914/Rand.jpeg",
+		 "Description": ""
+	},
+	{
+		 "name": "Younker Hall for Men",
+		 "lat": 41.7378,
+		 "lng": -92.7355,
+		 "Construction": 1951,
+		 "Demolition": "Present",
+		 "icon": "img/dorm.svg",
+		 "img": "buildings/1914/Rand.jpeg",
+		 "Description": "In 1956 Younker Health Center is constructed."
+	},
+	{
+		"name": "Natatorium - Frame Swimming Pool Building",
+		 "lat":41.7628,
+		 "lng":-92.7154,
+		 "Construction": 1926,
+		 "Demolition": 1972,
+		 "icon": "img/sport.svg",
+		 "img": "buildings/1960/Buling 1960.tiff",
+		 "Description": "Former President's home is name Grinnell House and ussed as a College Inn and offical ffaculty and administrative entertainment center."
+	}
+
+]
