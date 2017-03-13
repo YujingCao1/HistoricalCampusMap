@@ -30,13 +30,20 @@
 	width: 1em;
 }
 
-#playbutton{
-		margin-top: 3%;
-		margin-left: 5%;
-}
-
 #map>svg{
 	top: 30%;
 	left: 30%;
 	position: fixed;
+}
+
+#play{
+	margin-left: 6%;
+	margin-top: -1.5%;
+}
+
+#playImg{
+	width: 28px;
+	height: 28px;
+	background: rgba(37, 34, 34, 0.47);
+	border-radius: 3px;
 }
