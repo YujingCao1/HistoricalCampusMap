@@ -192,8 +192,15 @@
 
 		// Play Animation
 		function playAnimation(){
+			var yearTick = slider.value();
+			var yearIndex = yearRange.indexOf(yearTick)
+
+			console.log(yearIndex++)
+
+			slider.value(yearRange[yearIndex])
+
 			changeBaseMap();
-			interval = setInterval(function() {changeBaseMap(); }, 100);
+			interval = setInterval(function() {changeBaseMap(); }, 1000);
 		}
 
 		// Pause Animation
