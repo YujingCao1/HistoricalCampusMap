@@ -162,10 +162,14 @@
 
 		// Function to Change Base Map
 		function changeBaseMap(){
-			var tick=slider.value();
 
-		    if (yearRange.includes(tick)){
-		    	myMap(tick);
+			var yearIndex = yearRange.indexOf(year)
+
+		    if (yearRange.includes(year)){
+		    	myMap(year);
+		    	yearIndex = yearIndex + 1;
+		    	year = yearRange[yearIndex];
+		    	slider.value(year) // set the value on slide which helps move slider forward.
 		    }
 		}
 
@@ -178,6 +182,7 @@
 		function togglePlay(){
 			var btn = document.getElementById('playImg');
 			var playStatus = btn.getAttribute("data-status");
+		
 
 			if (playStatus == "paused") {
 				btn.setAttribute('data-status', "playing");
@@ -192,15 +197,8 @@
 
 		// Play Animation
 		function playAnimation(){
-			var yearTick = slider.value();
-			var yearIndex = yearRange.indexOf(yearTick)
-
-			console.log(yearIndex++)
-
-			slider.value(yearRange[yearIndex])
-
 			changeBaseMap();
-			interval = setInterval(function() {changeBaseMap(); }, 1000);
+			interval = setInterval(function() {changeBaseMap(); }, 3000);
 		}
 
 		// Pause Animation
