@@ -3,67 +3,67 @@
 		"name": "Alumni Hall",
 		"lat": 41.7412,
 		"lng": -92.7025,
-		"icon": "img/acad.svg",
-		"Construction": 1883,
+		"icon": "img/acad-mark3.png",
+		"Construction": 1882,
 		"Demolition":1958,
 		"img": "buildings/1914/BlairHall.jpeg",
-		"Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling)."
+		"Description": "Alumni Hall, originally constructed after the tornado of 1882, was a three-story brick building. It used to stand where Burling Library now sits and was the site of the College’s Gymnasium, the chapel, and the library (until Goodnow Hall could be constructed). In 1958, Alumni Hall was razed for the construction of Burling Library. However, upon the razing, a memorabilia box from 1882 was discovered, which contained letters and accounts from that year."
 	},
 	{
 		"name": "Blair Hall",
-		"lat": 41.7448,
-		"lng": -92.7190,
-		"icon": "img/acad.svg",
-	    "Construction": 1883,
-		"Demolition":1960,
+		"lat": 41.7438,
+		"lng": -92.7167,
+		"icon": "img/acad-mark3.png",
+	    "Construction": 1886,
+		"Demolition":1961,
 		"img": "buildings/1914/BlairHall.jpeg",
-		"Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling)."
+		"Description": "Blair Hall, constructed in 1886, and was eventually razed in 1961 to make room for Burling Library and the proposed Fine Arts Building. The building housed the chapel along with chemistry, biology (zoology/botany), physics, and math. Blair Hall also housed a large natural science museum that attracted both students and the public from the surrounding communities. The department of art moved in to the building after the chapel left with the construction of Herrick Chapel. From 1955 to 1961 the first floor of Blair Hall housed the college bookstore and the college mail service. While the building itself was a great piece of architecture by the 1960s it fell into disrepair so the college elected to have it razed for the construction of Burling Library. ."
 	},
 	{
 		"name": "Chicago Hall",
-		"lat": 41.7419,
-		"lng": -92.7386,
-		"icon": "img/acad.svg",
+		"lat": 41.7414,
+		"lng": -92.7379,
+		"icon": "img/acad-mark3.png",
 		"Construction": 1883,
-		"Demolition":1959,
+		"Demolition":1958,
 		"img": "buildings/1914/ChicagoHall.jpeg",
-		"Description": "Earliest engravings of Chicago, Blair, and Alumni after construction. In 1958 Alumni hall is razed to make space for a new library building (burling)."
+		"Description": "Chicago Hall, erected in 1883, held the college and academy recitation rooms along with the school’s music conservatory. The building eventually became used for administrative offices and classrooms until it was razed in 1958 to create space for Burling Library."
 	},
 	{
 		"name": "Goodnow Hall",
-		"lat": 41.7454,
-		"lng": -92.7523,
-		"icon": "img/acad.svg",
+		"lat": 41.7448,
+		"lng": -92.7543,
+		"icon": "img/acad-mark3.png",
 		"Construction": 1885,
 		"Demolition": "Present",
 		"img": "buildings/1914/Goodnow.jpeg",
-		"Description": "Orginally constructed to serve as the school's library and as an astronomical observatory."
+		"Description": "While Goodnow Hall still exists today, it was originally constructed in 1885 to serve as the college’s main library and astronomical observatory. In 1905, the library collections were moved to Carnegie Library, Goodnow was renovated to house astronomy, mathematics, and physics. Over the course of many years, Goodnow provided departmental spaces for psychology and education until becoming the permanent home for the Department of Anthropology, where it remains today."
 	},
 	{
 		"name": "Herrick Chapel",
-		"lat": 41.7536,
-		"lng": -92.7457,
-		"icon": "img/life.svg",
-		"Construction": 1906,
+		"lat": 41.7528,
+		"lng": -92.7470,
+		"icon": "img/life-mark3.png",
+		"Construction": 1907,
 		"Demolition": "Present",
 		"img": "buildings/1914/HerrickChapel.jpeg",
-		"Description": "Originally used as the associations building, while Alumni Hall is remodeled to house School of Music."
+		"Description": "Since its original construction in 1907, Herrick Chapel has served as a space for religious services and a general purpose of a large auditorium, which can seat over seven hundred people. The chapel erected a memorial in the 19th century of the names of Grinnell Students who died as soldiers in the Union Army during the Civil War."
 	},
 	{
 	 	"name": "Carnegie Library",
-	 	"lat": 41.7548,
-	 	"lng": -92.7552,
-	 	"icon": "img/acad.svg",
-	 	"Construction": 1904,
+	 	"lat": 41.7578,
+	 	"lng": -92.7512,
+	 	"icon": "img/acad-mark3.png",
+	 	"Construction": 1905,
 		"Demolition": "Present",
 		"img": "buildings/1914/CarnegieLibrary.jpeg",
-		"Description": "Previous year, the college received an offer from A. Carnegie to fund a new library ($50,000 grant) -> lib moves from Goodnow to here."
+		"Description": "Carnegie, built in 1905, was designed to replace Goodnow as the primary library on campus, which had housed the main library collection since 1888. Part of the initial funding for the space came from renowned philanthropist Andrew Carnegie, who donated $50,000 for its construction. After the construction of Burling Library, Carnegie undertook renovation to be used as faculty offices, classrooms, the bookstore, and the mail room. Presently, Carnegie stands as a space for classrooms and faculty offices."
 	},
 	{
 		"name": "Gymnasium for Men",
-		"lat": 41.7592,
+		"lat": 41.7622,
 		"lng": -92.7246,
-		"icon": "img/sport.svg",
+		"icon": "img/sport-mark3.png",
 		"Construction": 1899,
 		"Demolition": 1971,
 		"img": "buildings/1914/Rand.jpeg",
@@ -71,9 +71,9 @@
 	},
 	{
 		"name": "Rand Gymnasium for Women",
-		"lat": 41.7525,
-		"lng": -92.6989,
-		"icon": "img/sport.svg",
+		"lat": 41.7518,
+		"lng": -92.6991,
+		"icon": "img/sport-mark3.png",
 		"Construction": 1915,
 		"Demolition": "Present",
 		"img": "buildings/1914/Rand.jpeg",
@@ -81,11 +81,11 @@
 	},
 	{
 		 "name": "Steiner Hall (Christian Associations Building)",
-		 "lat":41.7499,
-		 "lng":-92.7501,
+		 "lat":41.7503,
+		 "lng":-92.7537,
 		 "Construction": 1906,
 		 "Demolition": "Present",
-		 "icon": "img/admin.svg",
+		 "icon": "img/adm-mark3.png",
 		 "img": "buildings/1914/SteinerHall.jpeg",
 		 "Description": "Looking NE."
 	}

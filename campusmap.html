@@ -166,10 +166,14 @@
 			var yearIndex = yearRange.indexOf(year)
 
 		    if (yearRange.includes(year)){
-		    	myMap(year);
+		    	myMap(year)
 		    	yearIndex = yearIndex + 1;
-		    	year = yearRange[yearIndex];
-		    	slider.value(year) // set the value on slide which helps move slider forward.
+		   		year = yearRange[yearIndex];
+		    	slider.value(year);
+
+		    	title = d3.select("#maptitle")
+			 			.append("h2")
+				document.getElementsByTagName("h2")["0"].innerHTML = "Ginnell College Historical Campus Map " + year;
 		    }
 		}
 
@@ -182,7 +186,6 @@
 		function togglePlay(){
 			var btn = document.getElementById('playImg');
 			var playStatus = btn.getAttribute("data-status");
-		
 
 			if (playStatus == "paused") {
 				btn.setAttribute('data-status', "playing");
