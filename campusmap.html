@@ -12,8 +12,8 @@
 </head>
 <body>
 	<div id="maptitle"></div>
-	<div id="map"></div>
 	<div id="legend"></div>
+	<div id="map"></div>
 	<div id="slider"></div>
 	<div id="play">
 			<img src="/img/play.png" id="playImg" data-status="paused" onclick="togglePlay();">
@@ -142,7 +142,9 @@
                displayCoordinates(event.latLng);               
             });
 
-            // Make legends
+		}
+
+		// Make legends
 			var iconBase = 'img/';
 			var icons = {
 				acad:{
@@ -177,10 +179,7 @@
 				legend.appendChild(div);
 			}
 
-			map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
-
-
-		}
+			//map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
 
 		// Retrieve Latitudes and Longitudes
         function displayCoordinates(pnt) {
