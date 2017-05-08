@@ -55,7 +55,7 @@
 		 "lng":-92.6906,
 		 "Construction": 1906,
 		 "Demolition": "Present",
-		 "icon": "img/admin-mark3.png.svg",
+		 "icon": "img/adm-mark3.png",
 		 "img": "buildings/1926/SteinerHall.jpeg",
 		 "Description": "Looking NE."
 	},
@@ -125,7 +125,7 @@
 		 "lng":-92.7145,
 		 "Construction": 1916,
 		 "Demolition": "Present",
-		 "icon": "img/admin-mark3.png.svg",
+		 "icon": "img/adm-mark3.png",
 		 "img": "buildings/1940/ARH.jpeg",
 		 "Description": "ARH is a three-story Tudor-style building with Gothic features which was part of a campus-wide modernization effort prompted by rising enrollment. Designed by H.D. Rawson of Proudfoot, Bird, and Rawson of Des Moines, ARH became the College's general classroom building."
 
@@ -149,7 +149,7 @@
 		 "Demolition": 1972,
 		 "icon": "img/sport-mark3.png",
 		 "img": "buildings/1960/Buling 1960.tiff",
-		 "Description": "Former President's home is name Grinnell House and ussed as a College Inn and offical ffaculty and admin-mark3.pngistrative entertainment center."
+		 "Description": "Former President's home is name Grinnell House and ussed as a College Inn and offical faculty and admistrative entertainment center."
 	}
 
 ]

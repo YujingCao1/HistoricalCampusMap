@@ -160,6 +160,136 @@
 		 "icon": "img/sport-mark3.png",
 		 "img": "buildings/1960/Burling 1960.tiff",
 		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Norris Hall",
+		 "lat":41.7702,
+		 "lng":-92.7633,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Dibble Hall",
+		 "lat":41.7670,
+		 "lng":-92.7601,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Clark Hall",
+		 "lat":41.7642,
+		 "lng":-92.7636,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Gates Hall",
+		 "lat":41.7621,
+		 "lng":-92.7640,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Rawson Hall",
+		 "lat":41.7599,
+		 "lng":-92.7641,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Langan Hall",
+		 "lat":41.7574,
+		 "lng":-92.7638,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Smith Hall",
+		 "lat":41.7533,
+		 "lng":-92.7598,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Read Hall",
+		 "lat":41.7415,
+		 "lng":-92.6786,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Haines Hall",
+		 "lat":41.7375,
+		 "lng":-92.6783,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "James Hall",
+		 "lat":41.7342,
+		 "lng":-92.6779,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Cleveland Hall",
+		 "lat":41.7323,
+		 "lng":-92.6779,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Main Hall",
+		 "lat":41.7283,
+		 "lng":-92.6771,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/dorm-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
+	},
+	{
+		 "name": "Younker Memorial Resource Center",
+		 "lat":41.7523,
+		 "lng":-92.6843,
+		 "Construction": 1971,
+		 "Demolition": "Present",
+		 "icon": "img/life-mark3.png",
+		 "img": "buildings/1960/Burling 1960.tiff",
+		 "Description": "Rubberized asphalt running track."
 	}
 
 ]
