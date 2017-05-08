@@ -16,8 +16,8 @@
 	<div id="map"></div>
 	<div id="slider"></div>
 	<div id="play">
-			<img src="/img/play.png" id="playImg" data-status="paused" onclick="togglePlay();">
-		</div>
+		<img src="/img/play.png" id="playImg" data-status="paused" onclick="togglePlay();">
+	</div>
 	<script type="text/javascript">
 		var historicalOverlay, map, title, marker, interval, year;
 		var height = window.innerHeight;
@@ -203,13 +203,13 @@
 		// Function to Change Base Map
 		function changeBaseMap(){
 
-			var yearIndex = yearRange.indexOf(year)
+			var yearIndex = yearRange.indexOf(year) + 1
+		   	
+		   	if (yearRange.includes(year)){
 
-		    if (yearRange.includes(year)){
-		    	myMap(year)
-		    	yearIndex = yearIndex + 1;
 		   		year = yearRange[yearIndex];
-		    	slider.value(year);
+		   		slider.value(year);
+		   		myMap(year)
 
 		    	title = d3.select("#maptitle")
 			 			.append("h2")
