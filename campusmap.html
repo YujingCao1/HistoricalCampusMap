@@ -167,7 +167,12 @@
 				sport:{
 					name: 'Athletics Buildings',
 					icon: iconBase + 'sport-square.png'
+				},
+				field:{
+					name: 'Field',
+					icon: iconBase + 'field-square.png'
 				}
+
 			}
 
 			var legend = document.getElementById('legend');
@@ -253,7 +258,7 @@
 		// Play Animation
 		function playAnimation(){
 			changeBaseMap();
-			interval = setInterval(function() {changeBaseMap(); }, 3000);
+			interval = setInterval(function() {changeBaseMap(); }, 1000);
 		}
 
 		// Pause Animation
