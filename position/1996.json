@@ -3,7 +3,7 @@
 		"name": "Goodnow Hall",
 		"lat": 41.7293,
 		"lng": -92.7620,
-		"icon": "img/acad.svg",
+		"icon": "img/acad-mark3.png",
 		"Construction": 1885,
 		"Demolition": "Present",
 		"img": "buildings/1940/Goodnow.jpeg",
@@ -13,7 +13,7 @@
 		"name": "Herrick Chapel",
 		"lat": 41.7346,
 		"lng": -92.7564,
-		"icon": "img/life.svg",
+		"icon": "img/life-mark3.png",
 		"Construction": 1906,
 		"Demolition": "Present",
 		"img": "buildings/1960/HerrickChapel.jpeg",
@@ -23,7 +23,7 @@
 	 	"name": "Carnegie Library",
 	 	"lat": 41.7375,
 	 	"lng": -92.7614,
-	 	"icon": "img/acad.svg",
+	 	"icon": "img/acad-mark3.png",
 	 	"Construction": 1904,
 		"Demolition": "Present",
 		"img": "buildings/1945/CarnegieLibrary.jpeg",
@@ -35,7 +35,7 @@
 		 "lng":-92.7621,
 		 "Construction": 1906,
 		 "Demolition": "Present",
-		 "icon": "img/admin.svg",
+		 "icon": "img/adm-mark3.png",
 		 "img": "buildings/1926/SteinerHall.jpeg",
 		 "Description": "Looking NE."
 	},
@@ -45,7 +45,7 @@
 		 "lng":-92.7614,
 		 "Construction": 1916,
 		 "Demolition": "Present",
-		 "icon": "img/admin.svg",
+		 "icon": "img/adm-mark3.png",
 		 "img": "buildings/1960/ARH.jpeg",
 		 "Description": "ARH is a three-story Tudor-style building with Gothic features which was part of a campus-wide modernization effort prompted by rising enrollment. Designed by H.D. Rawson of Proudfoot, Bird, and Rawson of Des Moines, ARH became the College's general classroom building."
 
@@ -56,7 +56,7 @@
 		 "lng": -92.6909,
 		 "Construction": 1888,
 		 "Demolition": "Present",
-		 "icon": "img/life.svg",
+		 "icon": "img/life-mark3.png",
 		 "img": "buildings/1931/Mears.jpeg",
 		 "Description": "Originally constructed as a lodging space for women (28 female students specifically)."
 	},
@@ -66,7 +66,7 @@
 		 "lng": -92.7267,
 		 "Construction": 1941,
 		 "Demolition": "Present",
-		 "icon": "img/sport.svg",
+		 "icon": "img/sport-mark3.png",
 		 "img": "buildings/1914/Rand.jpeg",
 		 "Description": " "
 	},
@@ -76,7 +76,7 @@
 		 "lng": -92.7426,
 		 "Construction": 1941,
 		 "Demolition": "Present",
-		 "icon": "img/life.svg",
+		 "icon": "img/life-mark3.png",
 		 "img": "buildings/1914/Rand.jpeg",
 		 "Description": "Constructed as a residence for menas well as a dining room for around 300."
 	},
@@ -86,7 +86,7 @@
 		 "lng": -92.6787,
 		 "Construction": 1948,
 		 "Demolition": "Present",
-		 "icon": "img/dorm.svg",
+		 "icon": "img/dorm-mark3.png",
 		 "img": "buildings/1914/Rand.jpeg",
 		 "Description": ""
 	},
@@ -96,7 +96,7 @@
 		 "lng": -92.7286,
 		 "Construction": 1952,
 		 "Demolition": "Present",
-		 "icon": "img/acad.svg",
+		 "icon": "img/acad-mark3.png",
 		 "img": "buildings/1914/Rand.jpeg",
 		 "Description": ""
 	},
@@ -106,7 +106,7 @@
 		 "lng": -92.7538,
 		 "Construction": 1951,
 		 "Demolition": "Present",
-		 "icon": "img/dorm.svg",
+		 "icon": "img/dorm-mark3.png",
 		 "img": "buildings/1914/Rand.jpeg",
 		 "Description": "In 1956 Younker Health Center is constructed."
 	},
@@ -116,7 +116,7 @@
 		 "lng":-92.7200,
 		 "Construction": 1958,
 		 "Demolition": "Present",
-		 "icon": "img/acad.svg",
+		 "icon": "img/acad-mark3.png",
 		 "img": "buildings/1960/Burling 1960.tiff",
 		 "Description": ""
 
@@ -127,7 +127,7 @@
 		 "lng":-92.7311,
 		 "Construction": 1990,
 		 "Demolition": "Present",
-		 "icon": "img/life.svg",
+		 "icon": "img/life-mark3.png",
 		 "img": "buildings/1960/Burling 1960.tiff",
 		 "Description": ""
 	},
@@ -137,7 +137,7 @@
 		 "lng":-92.7576,
 		 "Construction": 1960,
 		 "Demolition": "Present",
-		 "icon": "img/acad.svg",
+		 "icon": "img/acad-mark3.png",
 		 "img": "buildings/1960/Burling 1960.tiff",
 		 "Description": ""
 	},
@@ -147,7 +147,7 @@
 		 "lng":-92.7195,
 		 "Construction": 1964,
 		 "Demolition": "Present",
-		 "icon": "img/admin.svg",
+		 "icon": "img/adm-mark3.png",
 		 "img": "buildings/1960/Burling 1960.tiff",
 		 "Description": "Former President's home is name Grinnell House and ussed as a College Inn and offical ffaculty and administrative entertainment center."
 	},
@@ -157,7 +157,7 @@
 		 "lng":-92.7026,
 		 "Construction": 1971,
 		 "Demolition": "Present",
-		 "icon": "img/sport.svg",
+		 "icon": "img/sport-mark3.png",
 		 "img": "buildings/1960/Burling 1960.tiff",
 		 "Description": "Rubberized asphalt running track."
 	}
