@@ -114,10 +114,11 @@
 
             		google.maps.event.addListener(marker, 'click', (function(marker,i){
             			return function(){
-            				infoWindow.setContent("<div style = 'height: 200px; width: 200px; font-size: 10px'>" + json[i].name + "<br>" 
-            					     + "Time: " + json[i].Construction 	+ " - " + json[i].Demolition 
-            					     + "<br>" + json[i].Description
-            						 + "<img align = center height='60%' width='80%' src = "+ json[i].img +">") + "</div>";
+            				infoWindow.setContent("<div style = 'height: 200px; width: 400px; font-size: 12px'>" + json[i].name
+            						 + " (" + json[i].Construction 	+ " - " + json[i].Demolition + ")"
+            						 + "<br>"
+            						 + "<img align = center height='60%' width='80%' src = "+ json[i].img +">"
+            					     + "<br>" + json[i].Description ) + "</div>";
             				infoWindow.open(map,marker);
             			}
             		})(marker,i));
