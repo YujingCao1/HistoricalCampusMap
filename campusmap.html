@@ -67,7 +67,7 @@
 			// Add Map Title
 			title = d3.select("#maptitle")
 			 		.append("h2")
-			document.getElementsByTagName("h2")["0"].innerHTML = "Ginnell College Historical Campus Map " + year;
+			document.getElementsByTagName("h2")["0"].innerHTML = "Grinnell College Historical Campus Map " + year;
 
 			var myCenter = new google.maps.LatLng(41.749110, -92.720104);
 			var mapCanvas=document.getElementById('map');
@@ -205,16 +205,27 @@
 		function changeBaseMap(){
 
 			var yearIndex = yearRange.indexOf(year) + 1
+			var btn = document.getElementById('playImg');
+			var playStatus = btn.getAttribute("data-status");
 		   	
 		   	if (yearRange.includes(year)){
 
 		   		year = yearRange[yearIndex];
-		   		slider.value(year);
-		   		myMap(year)
 
-		    	title = d3.select("#maptitle")
-			 			.append("h2")
-				document.getElementsByTagName("h2")["0"].innerHTML = "Ginnell College Historical Campus Map " + year;
+		   		if (year <= max){
+		   			slider.value(year);
+		   			myMap(year)
+
+		    		title = d3.select("#maptitle")
+			 				.append("h2")
+					document.getElementsByTagName("h2")["0"].innerHTML = "Grinnell College Historical Campus Map " + year;
+		   		}else{
+		   			myMap(max)
+		   			slider.value(max)
+		   			btn.setAttribute('data-status', 'paused');
+					btn.src = "img/play.png";
+					pauseAnimation();
+		   		}
 		    }
 		}
 
